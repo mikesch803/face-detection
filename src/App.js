@@ -38,7 +38,9 @@ function App() {
     console.log(e.target.value);
     setInput(e.target.value);
   };
-
+  
+  var a;
+  
   const onSubmit = (e) => {
     e.preventDefault();
     console.log("click");
